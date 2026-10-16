@@ -1,3 +1,11 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+tf-gpu-win/
+env*/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -19,12 +27,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
-# Virtual environments
-venv/
-env/
-ENV/
-.venv
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -61,7 +63,6 @@ Thumbs.db
 .env.local
 
 # Optuna studies
-*.db
 optuna_studies/
 
 # Logs
